@@ -1,0 +1,88 @@
+<div class="main-content">
+  <div class="container-fluid">
+      <div class="row">
+            <input type="text" id="inputEmail" class="form-control" placeholder="Email" [(ngModel)]="email">
+          <div class="col-md-4">
+              <div class="card">
+                  <div class="card-header card-header-danger">
+                      <h4 class="card-title ">Simple Table</h4>
+                      <p class="card-category"> Here is a subtitle for this table</p>
+                  </div>
+                  <div class="card-body">
+                      <div class="table-responsive">
+                          <input type="text" id="inputEmail" class="form-control" placeholder="Email" [(ngModel)]="email">
+                          <table class="table">
+                            <thead>
+                              <tr>
+                                <th>Name</th>
+                                <th>Salary</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr *ngFor="let emp of dataSource">
+                                <td>{{emp.position}}</td>
+                                <td>{{emp.name}}</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header card-header-danger">
+                        <h4 class="card-title ">Simple Table</h4>
+                        <p class="card-category"> Here is a subtitle for this table</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <input type="text" id="inputEmail" class="form-control" placeholder="Email" [(ngModel)]="email">
+                            <table class="table">
+                              <thead>
+                                <tr>
+                                  <th>Name</th>
+                                  <th>Salary</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr *ngFor="let emp of dataSource">
+                                  <td>{{emp.position}}</td>
+                                  <td>{{emp.name}}</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header card-header-danger">
+                            <h4 class="card-title ">Simple Table</h4>
+                            <p class="card-category"> Here is a subtitle for this table</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <input type="text" id="inputEmail" class="form-control" placeholder="Email" [(ngModel)]="email">
+                                <table class="table">
+                                  <thead>
+                                    <tr>
+                                      <th>Name</th>
+                                      <th>Salary</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr *ngFor="let emp of dataSource">
+                                      <td>{{emp.position}}</td>
+                                      <td>{{emp.name}}</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+      </div>
+  </div>
+</div>
