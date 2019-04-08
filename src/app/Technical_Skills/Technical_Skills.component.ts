@@ -21,9 +21,9 @@ const ELEMENT_DATA: PeriodicElement[] = [
 ];
 
 @Component({
-  selector: 'app-table-list',
-  templateUrl: './table-list.component.html',
-  styleUrls: ['./table-list.component.css']
+  selector: 'app-Technical_Skills',
+  templateUrl: './Technical_Skills.component.html',
+  styleUrls: ['./Technical_Skills.component.css']
 })
 export class TableListComponent  {
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];

@@ -1,0 +1,35 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div *ngFor="let projectCardItem of projectCardItems">
+            <div class="card">
+                <div class="card-header card-header-danger">
+                    <h4 class="card-title">{{projectCardItem.Title}} </h4>
+                    <p class="card-category">{{projectCardItem.Short_Description}}</p>
+                </div>
+                <div class="card-body">
+                    <div id="typography">
+                        <form [style.fontSize.px]="20">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <mat-form-field>
+                                        <input matInput placeholder="Technology" readonly value="{{projectCardItem.Technology}}">
+                                    </mat-form-field>
+                                </div>
+                                <div class="col-md-6">
+                                    <mat-form-field>
+                                        <input matInput placeholder="Github Link" readonly value="{{projectCardItem.Github_Link}}">
+                                    </mat-form-field>
+                                </div>
+                                <div class="col-md-12">
+                                    <mat-form-field>
+                                        <textarea matInput placeholder="Description" readonly >{{projectCardItem.Long_Description}}</textarea>
+                                    </mat-form-field>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>

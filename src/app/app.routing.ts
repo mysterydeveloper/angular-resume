@@ -20,8 +20,8 @@ const routes: Routes =[
   }]}
     // { path: 'dashboard',      component: DashboardComponent },
     // { path: 'user-profile',   component: UserProfileComponent },
-    // { path: 'table-list',     component: TableListComponent },
-    // { path: 'typography',     component: TypographyComponent },
+    // { path: 'Technical_Skills',     component: TableListComponent },
+    // { path: 'Projects_UnderTaken',     component: Projects_UnderTakenComponent },
     // { path: 'icons',          component: IconsComponent },
     // { path: 'maps',           component: MapsComponent },
     // { path: 'notifications',  component: NotificationsComponent },
